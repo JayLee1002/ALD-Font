@@ -2,9 +2,7 @@
 
 This repository is the official implementation of **“Disentangle to Create:
 Architecture-Level Disentangled Diffusion Model for Few-Shot Chinese Font
-Generation”** (ALD-Font). It supports diffusion training, BNR training,
-transformer+CLIP PEFT, and generation from a folder of reference images.
-Evaluation metrics are not included.
+Generation”** (ALD-Font). 
 
 ## Environment
 
@@ -29,8 +27,8 @@ resolve correctly.
 The default config expects these pretrained assets outside the repository:
 
 ```text
-../cache/v2-1_512-ema-pruned.ckpt
-../cache/chinese-vit-large-patch14/
+PATH/v2-1_512-ema-pruned.ckpt
+PATH/chinese-vit-large-patch14/
 ```
 
 Change `configs/train.yaml` when the assets are stored elsewhere.
