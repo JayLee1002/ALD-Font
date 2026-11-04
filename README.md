@@ -2,7 +2,8 @@
 
 This repository is the official implementation of **“Disentangle to Create:
 Architecture-Level Disentangled Diffusion Model for Few-Shot Chinese Font
-Generation”** (ALD-Font). 
+Generation”** (ALD-Font). The paper has been accepted for publication in
+**Neural Networks**.
 
 ## Environment
 
@@ -153,3 +154,19 @@ python predict.py \
 
 Omit `--bnr` to save the raw diffusion output. With BNR enabled, the final image
 is saved as `CHAR.png` and the pre-BNR image as `CHAR_before_bnr.png`.
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@article{LI2027109825,
+  title = {Disentangle to create: Architecture-level disentangled diffusion model for few-shot Chinese font generation},
+  journal = {Neural Networks},
+  volume = {206},
+  pages = {109825},
+  year = {2027},
+  issn = {0893-6080},
+  author = {Jie Li and Suorong Yang and Jian Zhao and Furao Shen}
+}
+```
